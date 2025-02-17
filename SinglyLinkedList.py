@@ -7,6 +7,16 @@ class SinglyLinkedList:
     def __init__(self):
         self.Head = None
 
+    """  def InsertAtEnd(self,data): if head and tail are used 
+        newnode = Node(data)
+        if self.head==None and self.tail == None:
+            self.head = newnode
+            self.tail = newnode
+        else:
+            self.tail.next = newnode
+            self.tail = newnode"""
+
+
     def InsertAtEnd(self,data):
         newnode = Node(data)
         if self.Head == None:
